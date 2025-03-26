@@ -1,0 +1,67 @@
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; /* Aggiungi un margine inferiore per evitare che il footer copra il contenuto */
+    width: 100%; /* Assicura che il contenitore principale occupi tutta la larghezza */
+  }
+  
+  .cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative; /* Imposta il contesto di posizionamento per gli elementi assoluti */
+  }
+  
+  .cv-header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #2a9271; /* Colore del testo chiaro */
+  }
+  
+  .cv-header .back-button {
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #146947;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .cv-header .back-button:hover {
+    background-color: #0d462f;
+  }
+  
+  .cv-header .nav-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #1a8b5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .cv-header .nav-button:hover {
+    background-color: #146947;
+  }
+  
+  .profilo, .istruzione, .competenze {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #74b6df; /* Colore di sfondo scuro per le sezioni */
+    padding: 0px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombra per dare profondità */
+  }

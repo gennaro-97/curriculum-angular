@@ -1,0 +1,23 @@
+<div class="cv-container">
+  <div class="cv-header">
+    <button routerLink="/" class="back-button">Torna alla Home</button>
+    <h1>Curriculum Vitae</h1>
+    <button class="nav-button" (click)="scrollTo('profilo')">Profilo</button>
+    <button class="nav-button" (click)="scrollTo('istruzione')">Istruzione</button>
+    <button class="nav-button" (click)="scrollTo('competenze')">Competenze</button>
+    <button class="nav-button" (click)="changeOrder()">Divertiti!!</button>
+  </div>
+
+  <ng-container *ngFor="let section of order">
+    <div *ngIf="section === 'profilo'" id="profilo" class="profilo">
+      <app-profilo></app-profilo>
+    </div>
+    <div *ngIf="section === 'istruzione'" id="istruzione" class="istruzione">
+      <app-istruzione></app-istruzione>
+    </div>
+    <div *ngIf="section === 'competenze'" id="competenze" class="competenze">
+      <app-competenze></app-competenze>
+    </div>
+  </ng-container>
+</div>
+<app-footer></app-footer>

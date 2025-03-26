@@ -1,0 +1,15 @@
+.competenze {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .competenze app-tecniche {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .competenze app-trasversali {
+    flex: 1;
+    margin-left: 10px;
+  }

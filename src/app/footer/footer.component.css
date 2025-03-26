@@ -1,0 +1,30 @@
+/* Stile per il footer */
+.footer {  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #51a4a7;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 0;
+    font-size: 1.1rem;
+   box-sizing: border-box;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: rgb(217, 216, 216);
+  }
+  
